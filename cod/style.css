@@ -1,0 +1,154 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    font-size: 10px;
+    font-family: arial;
+}
+
+.bolinha{
+    position: fixed;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.bolinha:hover{
+    cursor: pointer;
+}
+
+.fixed-name{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    margin-top: -10;
+    background-color: #cde8e5ba;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 15px;
+    align-content: center;
+    font-family: monospace;
+    top: 0;
+}
+
+
+.intro-top{
+    display: block;
+    width: 80%;
+    height: auto;
+    font-size: 1.1rem;
+    margin: 140px 10% 50px 10%;
+    align-content: center;
+    padding: 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.all-element-center{
+    display: flex;
+    margin: 50px 10% 50px 10%;
+    width: 83%;
+    height: auto;
+
+}
+
+.center-element{
+    font-size: 1rem;
+    width: 80%;
+    padding: 0px 20px 0px 20px;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+
+}
+
+.center-element header{
+    color: #4D869C;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+.center-element ul li{
+list-style: none;
+}
+
+.project-main-center{
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    background-color: #ededed;
+    border: 2px solid #999999;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    width: 94%;
+    height: auto;
+}
+
+.project a{
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+}
+
+.project h3{
+    color: #4D869C;
+    font-family: monospace;
+
+}
+
+.p-cod{
+    border: 1px solid #4D869C;
+    padding: 5px;
+    border-radius: 5px;
+    width: 31%;
+    text-align: center;
+}
+
+.project:hover{
+    cursor: pointer;
+    border: 2px solid #4D869C;
+    box-shadow: 1px 1px 5px rgba(59, 22, 193, 0.7);
+    transition: linear 0.2s;
+}
+
+.aside-left{
+    border: 1px solid #aaaaaa;
+    width: 30%;
+    font-size: 0.9rem;
+    padding: 50px 18px 20px 20px;
+    word-break: break-word;
+}
+
+.aside-right{
+    border: 1px solid #aaaaaa;
+    width: 30%;
+    font-size: 0.9rem;
+    padding: 50px 18px 20px 20px;
+    word-break: break-word;
+
+}
+
+.img-infos_contact{
+    width: 20px;
+    height: auto;
+}
+
+.intro-bottom{
+    width: 100%;
+    height: auto;
+    background-color: #4D869C;
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px;
+    color: white;
+}
